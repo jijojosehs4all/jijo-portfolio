@@ -65,7 +65,7 @@
 
 - Test Changes
     - `exit`
-    - Mac/Linux: `ssh jjose6.cnm.edu@jijoportfolio.com`
+    - Mac/Linux: `ssh jjose6@jijoportfolio.com`
     - Windows:
         - **Session**
             - Click pwp
