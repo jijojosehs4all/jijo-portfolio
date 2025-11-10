@@ -52,7 +52,7 @@
             - Click pwp
             - Click Save
 - create user
-    - `useradd -m -s /bin/bash -g users -G sudo your-username`
+    - `useradd -m -s /bin/bash -g users -G sudo jjose6.cnm.edu`
     - replace your-username with your own
 - create password
     - `passwd your-username`
@@ -65,7 +65,7 @@
 
 - Test Changes
     - `exit`
-    - Mac/Linux: `ssh your-username@iliketocopyandpasteblindly.me`
+    - Mac/Linux: `ssh jjose6.cnm.edu@jijoportfolio.com`
     - Windows:
         - **Session**
             - Click pwp
