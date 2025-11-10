@@ -52,7 +52,7 @@
             - Click pwp
             - Click Save
 - create user
-    - `useradd -m -s /bin/bash -g users -G sudo jjose6.cnm.edu`
+    - `useradd -m -s /bin/bash -g users -G sudo jjose6`
     - replace your-username with your own
 - create password
     - `passwd your-username`
