@@ -1,0 +1,7 @@
+
+.hero-bg {
+    background-image: url('documentation/images/wayanad.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
