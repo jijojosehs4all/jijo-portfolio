@@ -1,0 +1,23 @@
+{
+  "name": "my-tailwind-website",
+  "version": "1.0.0",
+  "description": "A personal website using Tailwind CSS and Flowbite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.5"
+  }
+}

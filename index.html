@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jijo Jose - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: url('documentation/images/wayanad.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.85) 0%, rgba(21, 128, 61, 0.9) 50%, rgba(22, 101, 52, 0.85) 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+<!-- Navigation -->
+<nav class="bg-white shadow-md fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="text-2xl font-bold text-green-600">JIJO JOSE</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-gray-700 hover:text-green-600 transition-colors">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-green-600 transition-colors">About</a>
+                <a href="#skills" class="text-gray-700 hover:text-green-600 transition-colors">Skills</a>
+                <a href="#projects" class="text-gray-700 hover:text-green-600 transition-colors">Projects</a>
+                <a href="#experience" class="text-gray-700 hover:text-green-600 transition-colors">Experience</a>
+                <a href="#contact" class="text-gray-700 hover:text-green-600 transition-colors">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-gray-700" id="mobile-menu-button">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-gray-700 hover:text-green-600">Home</a>
+                <a href="#about" class="block px-3 py-2 text-gray-700 hover:text-green-600">About</a>
+                <a href="#skills" class="block px-3 py-2 text-gray-700 hover:text-green-600">Skills</a>
+                <a href="#projects" class="block px-3 py-2 text-gray-700 hover:text-green-600">Projects</a>
+                <a href="#experience" class="block px-3 py-2 text-gray-700 hover:text-green-600">Experience</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-green-600">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="min-h-screen flex items-center justify-center hero-bg mt-16 relative overflow-hidden">
+    <!-- Green Overlay -->
+    <div class="absolute inset-0 hero-overlay"></div>
+
+    <div class="text-center text-white px-4 relative z-10">
+        <h1 class="text-5xl md:text-7xl font-bold mb-4 drop-shadow-lg">Hi, I'm Jijo</h1>
+        <p class="text-2xl md:text-3xl mb-2 drop-shadow-lg">Product Manager</p>
+        <p class="text-2xl md:text-3xl mb-8 drop-shadow-lg">Full Stack Developer</p>
+        <div class="space-x-4 mb-8">
+            <a href="#projects" class="inline-block bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg">
+                View Projects
+            </a>
+            <a href="#contact" class="inline-block bg-transparent border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-all transform hover:scale-105 shadow-lg">
+                Contact Me
+            </a>
+        </div>
+        <div class="flex justify-center space-x-6 text-3xl">
+            <a href="#" class="hover:text-gray-200 transition-colors transform hover:scale-110 drop-shadow-lg"><i class="fab fa-github"></i></a>
+            <a href="#" class="hover:text-gray-200 transition-colors transform hover:scale-110 drop-shadow-lg"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-gray-200 transition-colors transform hover:scale-110 drop-shadow-lg"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="mt-12 animate-bounce">
+            <a href="#about">
+                <i class="fas fa-chevron-down text-4xl cursor-pointer drop-shadow-lg"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-4xl font-bold text-gray-800 mb-6">About Me</h2>
+                <p class="text-gray-600 text-lg mb-4 leading-relaxed">
+                    I'm a Product Manager and Full Stack Developer passionate about turning ideas into impactful digital products. My interest in coding began in my teens and evolved through college, where I discovered my strength in product ownership and management. Over the past four years, I've led Agile teams, delivered end-to-end solutions, and launched projects like Man Hour Report, a productivity platform for the electrical construction industry.
+                </p>
+                <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                    Eager to deepen my technical skills, I pursued PERN stack development through self-learning and the CNM Ingenuity Bootcamp. My goal is to grow at the intersection of Product Management, Design, and Web Development, creating user-focused products that drive real results.
+                </p>
+                <div class="flex space-x-4">
+                    <div class="text-center">
+                        <p class="text-3xl font-bold text-green-600">4+</p>
+                        <p class="text-gray-600 text-sm">Years Experience</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-3xl font-bold text-green-600">15+</p>
+                        <p class="text-gray-600 text-sm">Projects Completed</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-3xl font-bold text-green-600">10+</p>
+                        <p class="text-gray-600 text-sm">Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="rounded-lg shadow-2xl overflow-hidden">
+                    <img src="documentation/images/Jijo.png" alt="Jijo Jose Profile" class="w-80 h-96 object-cover">
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Cards -->
+        <div class="grid md:grid-cols-3 gap-8 mt-16">
+            <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div class="text-green-600 text-4xl mb-4">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Bachelor's Degree</h3>
+                <p class="text-gray-600">Bachelor of Commerce with Information Technology</p>
+                <p class="text-gray-700 font-semibold mt-1">DR.GRD College of Science and Commerce</p>
+                <p class="text-gray-500 text-sm mt-2">2012 - 2016</p>
+            </div>
+
+            <div class="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div class="text-gray-600 text-4xl mb-4">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Coding Bootcamp</h3>
+                <p class="text-gray-600">Full Stack Development (PERN)</p>
+                <p class="text-gray-700 font-semibold mt-1">CNM Ingenuity Deep Dive Bootcamp</p>
+                <p class="text-gray-500 text-sm mt-2">2025</p>
+            </div>
+
+            <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div class="text-green-600 text-4xl mb-4">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Professional Certification</h3>
+                <p class="text-gray-600">Certified Scrum Master</p>
+                <p class="text-gray-700 font-semibold mt-1">Scrum Alliance</p>
+                <p class="text-gray-500 text-sm mt-2">2022</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Technical Skills</h2>
+            <p class="text-gray-600 text-lg">A comprehensive overview of my technical capabilities</p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12 mb-12">
+            <!-- Proficiency Chart -->
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-6">Proficiency Chart</h3>
+
+                <div class="mb-6">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">JavaScript</span>
+                        <span class="text-gray-600">70%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3">
+                        <div class="bg-green-600 h-3 rounded-full transition-all duration-1000" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">React</span>
+                        <span class="text-gray-600">55%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3">
+                        <div class="bg-green-600 h-3 rounded-full transition-all duration-1000" style="width: 55%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">Node.js</span>
+                        <span class="text-gray-600">65%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3">
+                        <div class="bg-green-600 h-3 rounded-full transition-all duration-1000" style="width: 65%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">PostgreSQL</span>
+                        <span class="text-gray-600">60%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3">
+                        <div class="bg-green-600 h-3 rounded-full transition-all duration-1000" style="width: 60%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">Product Management</span>
+                        <span class="text-gray-600">85%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3">
+                        <div class="bg-green-600 h-3 rounded-full transition-all duration-1000" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <div class="flex justify-between mb-2">
+                        <span class="font-semibold">Agile/Scrum</span>
+                        <span class="text-gray-600">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3">
+                        <div class="bg-green-600 h-3 rounded-full transition-all duration-1000" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology Categories Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <h3 class="text-xl font-bold mb-4 text-green-600">Frontend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">HTML5</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">CSS3</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">React</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <h3 class="text-xl font-bold mb-4 text-gray-600">Backend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Node.js</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Express.js</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">REST API</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">GraphQL</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">JWT</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">OAuth</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <h3 class="text-xl font-bold mb-4 text-green-600">Database</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">MySQL</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">MongoDB</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Redis</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Prisma</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Sequelize</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <h3 class="text-xl font-bold mb-4 text-gray-600">DevOps & Tools</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Git</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Docker</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">AWS</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Jira</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Figma</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Featured Projects</h2>
+            <p class="text-gray-600 text-lg">A selection of projects showcasing different technologies and approaches to problem-solving</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Card 1 -->
+            <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow group">
+                <div class="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-receipt text-8xl text-white opacity-50"></i>
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all"></div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Receipt Vault</h3>
+                    <p class="text-gray-600 mb-4">Receipt Vault is designed to give individuals a simple, secure, and organized way to manage all their receipts digitally. This app provides a centralized digital hub for tracking expenses, managing warranties, and preparing for returns or taxes.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">React</span>
+                        <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">Node.js</span>
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">PostgreSQL</span>
+                        <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">Express</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-green-600 hover:text-green-800 font-semibold flex items-center">
+                            <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                        </a>
+                        <a href="#" class="text-green-600 hover:text-green-800 font-semibold flex items-center">
+                            <i class="fab fa-github mr-2"></i>Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 - Placeholder -->
+            <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow group">
+                <div class="h-48 bg-gradient-to-br from-gray-400 to-gray-600 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-project-diagram text-8xl text-white opacity-50"></i>
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all"></div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">[Project Title]</h3>
+                    <p class="text-gray-600 mb-4">[Brief description of your project - what problem it solves, key features, and technologies used]</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">[Tech 1]</span>
+                        <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">[Tech 2]</span>
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">[Tech 3]</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-green-600 hover:text-green-800 font-semibold flex items-center">
+                            <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                        </a>
+                        <a href="#" class="text-green-600 hover:text-green-800 font-semibold flex items-center">
+                            <i class="fab fa-github mr-2"></i>Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 3 - Placeholder -->
+            <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow group">
+                <div class="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center relative overflow-hidden">
+                    <i class="fas fa-code text-8xl text-white opacity-50"></i>
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all"></div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">[Project Title]</h3>
+                    <p class="text-gray-600 mb-4">[Brief description of your project - what problem it solves, key features, and technologies used]</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">[Tech 1]</span>
+                        <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded text-xs">[Tech 2]</span>
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">[Tech 3]</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-green-600 hover:text-green-800 font-semibold flex items-center">
+                            <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                        </a>
+                        <a href="#" class="text-green-600 hover:text-green-800 font-semibold flex items-center">
+                            <i class="fab fa-github mr-2"></i>Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-12">
+            <a href="https://github.com/yourusername" target="_blank" class="inline-block border-2 border-green-600 text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-green-600 hover:text-white transition-all transform hover:scale-105">
+                View All Projects on GitHub
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Work Experience</h2>
+            <p class="text-gray-600 text-lg">My professional journey and key accomplishments</p>
+        </div>
+
+        <div class="space-y-8">
+            <!-- Experience 1 - Placeholder -->
+            <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800">[Job Title]</h3>
+                        <p class="text-lg text-gray-600">[Company Name] • [Location]</p>
+                    </div>
+                    <div class="text-gray-500 mt-2 md:mt-0">
+                        <i class="far fa-calendar-alt mr-2"></i>[Start Date] - [End Date/Present]
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                    [Describe your role, responsibilities, and key achievements. Include specific metrics, technologies used, and the impact of your work. Mention any leadership roles, projects you led, or significant contributions to the team.]
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">[Skill 1]</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">[Skill 2]</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">[Skill 3]</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">[Skill 4]</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">[Skill 5]</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">[Skill 6]</span>
+                </div>
+            </div>
+
+            <!-- Experience 2 - Placeholder -->
+            <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800">[Job Title]</h3>
+                        <p class="text-lg text-gray-600">[Company Name] • [Location]</p>
+                    </div>
+                    <div class="text-gray-500 mt-2 md:mt-0">
+                        <i class="far fa-calendar-alt mr-2"></i>[Start Date] - [End Date]
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                    [Describe your role, responsibilities, and key achievements. Include specific metrics, technologies used, and the impact of your work. Mention any leadership roles, projects you led, or
