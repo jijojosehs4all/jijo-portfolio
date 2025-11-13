@@ -25,4 +25,4 @@ jobs:
       - name: Deploy to server
         run: |
           ssh-keyscan -H jijoportfolio.com >> ~/.ssh/known_hosts 
-          scp -r ./dist/* gkephart@jijoportfolio.com:/var/www/jijoportfolio.com/html
+          scp -r ./dist/* jjose6@jijoportfolio.com:/var/www/jijoportfolio.com/html
